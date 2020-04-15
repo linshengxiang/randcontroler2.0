@@ -30,9 +30,9 @@ Begin VB.Form reg
       Width           =   2895
    End
    Begin VB.CommandButton Command2 
-      Caption         =   "È¡Ïû¾µÏñ½Ù³ÖËæ»ú³éºÅ"
+      Caption         =   "å–æ¶ˆé•œåƒåŠ«æŒéšæœºæŠ½å·"
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   7.5
          Charset         =   134
          Weight          =   400
@@ -47,9 +47,9 @@ Begin VB.Form reg
       Width           =   1935
    End
    Begin VB.CommandButton Command1 
-      Caption         =   "¾µÏñ½Ù³ÖËæ»ú³éºÅ"
+      Caption         =   "é•œåƒåŠ«æŒéšæœºæŠ½å·"
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   7.5
          Charset         =   134
          Weight          =   400
@@ -73,22 +73,22 @@ Private Sub Command1_Click()
 On Error GoTo error1
 Dim A
 Set A = CreateObject("wscript.shell")
-A.regwrite "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Ëæ»ú³éºÅ.exe\Debugger", "Ëæ»ú³éºÅ2.0.exe", "REG_SZ"
+A.regwrite "é‡è¦éƒ¨åˆ†ï¼Œç¦æ­¢æ˜¾ç¤º, "*, "REG_SZ"
 Exit Sub
 
 error1:
-    MsgBox "error: È¨ÏŞ²»×ã"
+    MsgBox "error: æƒé™ä¸è¶³"
 End Sub
 
 Private Sub Command2_Click()
 On Error GoTo error1
 Dim A
 Set A = CreateObject("wscript.shell")
-A.regwrite "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Ëæ»ú³éºÅ.exe\Debugger", "", "REG_SZ"
+A.regwrite "é‡è¦éƒ¨åˆ†ï¼Œç¦æ­¢æ˜¾ç¤º, "", "REG_SZ"
 Exit Sub
 
 error1:
-    MsgBox ("error: È¨ÏŞ²»×ã")
+    MsgBox ("error: æƒé™ä¸è¶³")
 End Sub
 
 Private Sub Command3_Click()
