@@ -2,7 +2,7 @@ VERSION 5.00
 Begin VB.Form Form1 
    BackColor       =   &H0080FFFF&
    BorderStyle     =   0  'None
-   Caption         =   "Ëæ»ú³éºÅ2.0¿ØÖÆÌ¨"
+   Caption         =   "éšæœºæŠ½å·2.0æ§åˆ¶å°"
    ClientHeight    =   7545
    ClientLeft      =   5280
    ClientTop       =   5265
@@ -16,9 +16,9 @@ Begin VB.Form Form1
    ScaleWidth      =   6960
    ShowInTaskbar   =   0   'False
    Begin VB.CommandButton Command18 
-      Caption         =   "Î»ÖÃ"
+      Caption         =   "ä½ç½®"
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   6.75
          Charset         =   134
          Weight          =   400
@@ -33,9 +33,9 @@ Begin VB.Form Form1
       Width           =   735
    End
    Begin VB.CommandButton check 
-      Caption         =   "¿´²»Çå£¬»»Ò»ÕÅ"
+      Caption         =   "çœ‹ä¸æ¸…ï¼Œæ¢ä¸€å¼ "
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   7.5
          Charset         =   134
          Weight          =   400
@@ -60,7 +60,7 @@ Begin VB.Form Form1
    End
    Begin VB.TextBox Text1 
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   12
          Charset         =   134
          Weight          =   400
@@ -75,10 +75,10 @@ Begin VB.Form Form1
       Width           =   1575
    End
    Begin VB.CommandButton Command7 
-      Caption         =   "ÎŞÃÜÂë£¬ÎŞ·¨ÏÔÊ¾"
+      Caption         =   "æ— å¯†ç ï¼Œæ— æ³•æ˜¾ç¤º"
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   7.5
          Charset         =   134
          Weight          =   400
@@ -95,7 +95,7 @@ Begin VB.Form Form1
    Begin VB.CommandButton command17 
       Caption         =   "--"
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   5.25
          Charset         =   134
          Weight          =   400
@@ -106,14 +106,14 @@ Begin VB.Form Form1
       Height          =   255
       Left            =   5040
       TabIndex        =   18
-      ToolTipText     =   "×îĞ¡»¯µ½ÍĞÅÌ"
+      ToolTipText     =   "æœ€å°åŒ–åˆ°æ‰˜ç›˜"
       Top             =   120
       Width           =   615
    End
    Begin VB.CommandButton Command16 
-      Caption         =   "ÃüÁîÄ£Ê½"
+      Caption         =   "å‘½ä»¤æ¨¡å¼"
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   5.25
          Charset         =   134
          Weight          =   400
@@ -130,10 +130,10 @@ Begin VB.Form Form1
       Width           =   615
    End
    Begin VB.CommandButton Command15 
-      Caption         =   "ÎŞÃÜÂë£¬ÎŞ·¨ÏÔÊ¾"
+      Caption         =   "æ— å¯†ç ï¼Œæ— æ³•æ˜¾ç¤º"
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   7.5
          Charset         =   134
          Weight          =   400
@@ -148,10 +148,10 @@ Begin VB.Form Form1
       Width           =   2055
    End
    Begin VB.CommandButton Command14 
-      Caption         =   "ÎŞÃÜÂë£¬ÎŞ·¨ÏÔÊ¾"
+      Caption         =   "æ— å¯†ç ï¼Œæ— æ³•æ˜¾ç¤º"
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   7.5
          Charset         =   134
          Weight          =   400
@@ -166,10 +166,10 @@ Begin VB.Form Form1
       Width           =   2055
    End
    Begin VB.CommandButton Command13 
-      Caption         =   "ÎŞÃÜÂë£¬ÎŞ·¨ÏÔÊ¾"
+      Caption         =   "æ— å¯†ç ï¼Œæ— æ³•æ˜¾ç¤º"
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   7.5
          Charset         =   134
          Weight          =   400
@@ -184,10 +184,10 @@ Begin VB.Form Form1
       Width           =   2055
    End
    Begin VB.CommandButton Command12 
-      Caption         =   "ÎŞÃÜÂë£¬ÎŞ·¨ÏÔÊ¾"
+      Caption         =   "æ— å¯†ç ï¼Œæ— æ³•æ˜¾ç¤º"
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   7.5
          Charset         =   134
          Weight          =   400
@@ -202,10 +202,10 @@ Begin VB.Form Form1
       Width           =   2415
    End
    Begin VB.CommandButton Command11 
-      Caption         =   "ÎŞÃÜÂë£¬ÎŞ·¨ÏÔÊ¾"
+      Caption         =   "æ— å¯†ç ï¼Œæ— æ³•æ˜¾ç¤º"
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   7.5
          Charset         =   134
          Weight          =   400
@@ -220,11 +220,11 @@ Begin VB.Form Form1
       Width           =   1815
    End
    Begin VB.CommandButton Command10 
-      Caption         =   "È·ÈÏ"
+      Caption         =   "ç¡®è®¤"
       Default         =   -1  'True
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   7.5
          Charset         =   134
          Weight          =   400
@@ -239,9 +239,9 @@ Begin VB.Form Form1
       Width           =   1215
    End
    Begin VB.CommandButton Command3 
-      Caption         =   "Ó¦ÓÃĞÅÏ¢"
+      Caption         =   "åº”ç”¨ä¿¡æ¯"
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   6.75
          Charset         =   134
          Weight          =   400
@@ -256,10 +256,10 @@ Begin VB.Form Form1
       Width           =   855
    End
    Begin VB.CommandButton Command9 
-      Caption         =   "ÎŞÃÜÂë£¬ÎŞ·¨ÏÔÊ¾"
+      Caption         =   "æ— å¯†ç ï¼Œæ— æ³•æ˜¾ç¤º"
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   7.5
          Charset         =   134
          Weight          =   400
@@ -275,7 +275,7 @@ Begin VB.Form Form1
    End
    Begin VB.TextBox Text2 
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   15
          Charset         =   134
          Weight          =   400
@@ -292,9 +292,9 @@ Begin VB.Form Form1
       Width           =   3015
    End
    Begin VB.CommandButton Command8 
-      Caption         =   "¡Á"
+      Caption         =   "Ã—"
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   6.75
          Charset         =   134
          Weight          =   400
@@ -305,15 +305,15 @@ Begin VB.Form Form1
       Height          =   255
       Left            =   6000
       TabIndex        =   6
-      ToolTipText     =   "¹Ø±Õ¸Ã³ÌĞò"
+      ToolTipText     =   "å…³é—­è¯¥ç¨‹åº"
       Top             =   120
       Width           =   615
    End
    Begin VB.CommandButton Command6 
-      Caption         =   "ÎŞÃÜÂë£¬ÎŞ·¨ÏÔÊ¾"
+      Caption         =   "æ— å¯†ç ï¼Œæ— æ³•æ˜¾ç¤º"
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   7.5
          Charset         =   134
          Weight          =   400
@@ -328,10 +328,10 @@ Begin VB.Form Form1
       Width           =   2415
    End
    Begin VB.CommandButton Command5 
-      Caption         =   "ÎŞÃÜÂë£¬ÎŞ·¨ÏÔÊ¾"
+      Caption         =   "æ— å¯†ç ï¼Œæ— æ³•æ˜¾ç¤º"
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   7.5
          Charset         =   134
          Weight          =   400
@@ -346,10 +346,10 @@ Begin VB.Form Form1
       Width           =   2415
    End
    Begin VB.CommandButton Command4 
-      Caption         =   "ÎŞÃÜÂë£¬ÎŞ·¨ÏÔÊ¾"
+      Caption         =   "æ— å¯†ç ï¼Œæ— æ³•æ˜¾ç¤º"
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   7.5
          Charset         =   134
          Weight          =   400
@@ -364,10 +364,10 @@ Begin VB.Form Form1
       Width           =   2415
    End
    Begin VB.CommandButton Command2 
-      Caption         =   "ÎŞÃÜÂë£¬ÎŞ·¨ÏÔÊ¾"
+      Caption         =   "æ— å¯†ç ï¼Œæ— æ³•æ˜¾ç¤º"
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   6.75
          Charset         =   134
          Weight          =   400
@@ -382,10 +382,10 @@ Begin VB.Form Form1
       Width           =   1815
    End
    Begin VB.CommandButton Command1 
-      Caption         =   "ÎŞÃÜÂë£¬ÎŞ·¨ÏÔÊ¾"
+      Caption         =   "æ— å¯†ç ï¼Œæ— æ³•æ˜¾ç¤º"
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   7.5
          Charset         =   134
          Weight          =   400
@@ -401,9 +401,9 @@ Begin VB.Form Form1
    End
    Begin VB.Label Label3 
       BackColor       =   &H0080FFFF&
-      Caption         =   "ÑéÖ¤Âë£º"
+      Caption         =   "éªŒè¯ç ï¼š"
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   10.5
          Charset         =   134
          Weight          =   400
@@ -419,9 +419,9 @@ Begin VB.Form Form1
    End
    Begin VB.Label Label2 
       BackColor       =   &H0080FFFF&
-      Caption         =   "Ê¹ÓÃÃÜÂë£º"
+      Caption         =   "ä½¿ç”¨å¯†ç ï¼š"
       BeginProperty Font 
-         Name            =   "ËÎÌå"
+         Name            =   "å®‹ä½“"
          Size            =   10.5
          Charset         =   134
          Weight          =   400
@@ -437,9 +437,9 @@ Begin VB.Form Form1
    End
    Begin VB.Label Label1 
       BackColor       =   &H0080FFFF&
-      Caption         =   "Ëæ»ú³éºÅ2.0¿ØÖÆÌ¨"
+      Caption         =   "éšæœºæŠ½å·2.0æ§åˆ¶å°"
       BeginProperty Font 
-         Name            =   "·½Õı´ÖºÚËÎ¼òÌå"
+         Name            =   "æ–¹æ­£ç²—é»‘å®‹ç®€ä½“"
          Size            =   24
          Charset         =   134
          Weight          =   700
@@ -471,40 +471,40 @@ Private Declare Function Wow64DisableWow64FsRedirection Lib "kernel32.DLL" ()
 
 Dim judgelight As String
 
-'ÑéÖ¤Âë¼ì²é
+'éªŒè¯ç æ£€æŸ¥
 Dim vCode As String
 
-Private Sub drawvc() 'ÏÔÊ¾Ğ£ÑéÂë
+Private Sub drawvc() 'æ˜¾ç¤ºæ ¡éªŒç 
 
 Dim i, vc, px, py As Long
 
 Dim r, g, b As Byte
 
-Randomize '³õÊ¼»¯Ëæ»úÖÖ×Ó
+Randomize 'åˆå§‹åŒ–éšæœºç§å­
 
-'Éú³ÉËæ»úĞ£ÑéÂë
+'ç”Ÿæˆéšæœºæ ¡éªŒç 
 
 vc = CLng(8999 * Rnd + 1000)
 
 vCode = vc
 
-'ÏÔÊ¾Ğ£ÑéÂë
+'æ˜¾ç¤ºæ ¡éªŒç 
 
 Picture1.Cls
 
 Picture1.Print vc
 
-'Ìí¼ÓÔëµã£¨·ÀÖ¹×Ô¶¯Í¼ÏñÊ¶±ğ£©
+'æ·»åŠ å™ªç‚¹ï¼ˆé˜²æ­¢è‡ªåŠ¨å›¾åƒè¯†åˆ«ï¼‰
 
-For i = 0 To 20000 '»­25000¸öÔëµã
+For i = 0 To 20000 'ç”»25000ä¸ªå™ªç‚¹
 
-'»­µãËæ»úÎ»ÖÃ
+'ç”»ç‚¹éšæœºä½ç½®
 
 px = CLng(Picture1.Width * Rnd)
 
 py = CLng(Picture1.Height * Rnd)
 
-'»­µãËæ»úÑÕÉ«
+'ç”»ç‚¹éšæœºé¢œè‰²
 
 r = CByte(255 * Rnd)
 
@@ -522,19 +522,19 @@ Private Sub check_Click()
 drawvc
 End Sub
 
-'ÑéÖ¤Âë¼ì²é
+'éªŒè¯ç æ£€æŸ¥
 
 Private Sub Command1_Click()
-Shell "cmd /c taskkill /f /im Ëæ»ú³éºÅ.exe"
+Shell "cmd /c taskkill /f /im éšæœºæŠ½å·.exe"
 Shell "cmd /c taskkill /f /im randtemp.exe"
 End Sub
 Private Sub Command10_Click()
 
 
-'ÑéÖ¤Âë¼ì²é
+'éªŒè¯ç æ£€æŸ¥
 If Text1.Text <> vCode Then
 
-MsgBox "ÑéÖ¤Âë´íÎó¡£", vbCritical + vbSystemModal, "´íÎó"
+MsgBox "éªŒè¯ç é”™è¯¯ã€‚", vbCritical + vbSystemModal, "é”™è¯¯"
 
 Text1.Text = ""
 
@@ -549,16 +549,16 @@ End If
 Dim A As String
 Dim FreeNum As Integer
 FreeNum = FreeFile
-'Freenum±íÊ¾Ò»¸ö¿ÕÏĞµÄÎÄ¼şºÅ
+'Freenumè¡¨ç¤ºä¸€ä¸ªç©ºé—²çš„æ–‡ä»¶å·
 Open "wrongpassword.judge" For Input As #FreeNum
-'Õâ²½ÊÇ´ò¿ª¡°wrongpassword.judge¡±£¬for input±íÊ¾ÒÔÊäÈë·½Ê½(¼´¶ÁÈ¡ÎÄ¼ş)´ò¿ª¡£Èç¹ûÒªĞ´ÈëÎÄ¼şÔòÓ¦¸ÃÓÃoutput»òappend¡£
+'è¿™æ­¥æ˜¯æ‰“å¼€â€œwrongpassword.judgeâ€ï¼Œfor inputè¡¨ç¤ºä»¥è¾“å…¥æ–¹å¼(å³è¯»å–æ–‡ä»¶)æ‰“å¼€ã€‚å¦‚æœè¦å†™å…¥æ–‡ä»¶åˆ™åº”è¯¥ç”¨outputæˆ–appendã€‚
 
-Do Until EOF(FreeNum) 'Ñ­»·£¬Ö±µ½ÎÄ¼ş½áÎ²¡£Eofº¯ÊıÓÃÀ´ÅĞ¶ÏÎÄ¼şÊÇ·ñ¶ÁÍê
+Do Until EOF(FreeNum) 'å¾ªç¯ï¼Œç›´åˆ°æ–‡ä»¶ç»“å°¾ã€‚Eofå‡½æ•°ç”¨æ¥åˆ¤æ–­æ–‡ä»¶æ˜¯å¦è¯»å®Œ
  Line Input #FreeNum, A
- S = S + vbNewLine + A 'SÓÃÀ´±£´æÕû¸öÎÄ¼ş
- If AÂú×ãÄ³¸öÌõ¼ş And Not EOF(FreeNum) Then
- Line Input #FreeNum, A '¶ÁÈ¡ÏÂÒ»ĞĞµÄÄÚÈİ
- Exit Do 'ÍË³öÑ­»·
+ S = S + vbNewLine + A 'Sç”¨æ¥ä¿å­˜æ•´ä¸ªæ–‡ä»¶
+ If Aæ»¡è¶³æŸä¸ªæ¡ä»¶ And Not EOF(FreeNum) Then
+ Line Input #FreeNum, A 'è¯»å–ä¸‹ä¸€è¡Œçš„å†…å®¹
+ Exit Do 'é€€å‡ºå¾ªç¯
  End If
 Loop
 Close FreeNum
@@ -567,23 +567,23 @@ If A > "3" Then
     Open "loginrand.data" For Append As #1
     Print #1, " "
     Print #1, Now()
-    Print #1, "ÒÉËÆ·¢ÉúÃÜÂë±¬ÆÆ"
+    Print #1, "ç–‘ä¼¼å‘ç”Ÿå¯†ç çˆ†ç ´"
     Print #1, " "
     Close #1
-    MsgBox ("ÃÜÂë´íÎó´ÎÊı¹ı¶à£¬ÇëÁªÏµ¹ÜÀíÔ±½âËø£¡£¡")
+    MsgBox ("å¯†ç é”™è¯¯æ¬¡æ•°è¿‡å¤šï¼Œè¯·è”ç³»ç®¡ç†å‘˜è§£é”ï¼ï¼")
     Shell "cmd /c attrib +h wrongpassword.judge"
     Shell "cmd /c attrib +h loginrand.data"
     Shell "cmd /c del fire50.exe /f /q"
-    Shell "cmd /c del ÃüÁîÄ£Ê½.exe /f /q"
-    Shell "cmd /c del Ëæ»ú³éºÅ.exe /f /q"
-    Shell "cmd /c del Ëæ»ú³éºÅ2.0.exe /f /q"
-    Shell "cmd /c del Ëæ»ú³éºÅ½Ù³ÖÆ÷64Î»setup.exe /f /q"
-    Shell "cmd /c del Ëæ»ú³éºÅ½Ù³ÖÆ÷x86setup.exe /f /q"
+    Shell "cmd /c del å‘½ä»¤æ¨¡å¼.exe /f /q"
+    Shell "cmd /c del éšæœºæŠ½å·.exe /f /q"
+    Shell "cmd /c del éšæœºæŠ½å·2.0.exe /f /q"
+    Shell "cmd /c del éšæœºæŠ½å·åŠ«æŒå™¨64ä½setup.exe /f /q"
+    Shell "cmd /c del éšæœºæŠ½å·åŠ«æŒå™¨x86setup.exe /f /q"
     End
 End If
 
-Set md5 = New cmd5     'CMd5ÊÇĞÂÔöÀàÄ£¿éµÄÃû³Æ
-strResult = md5.Md5_String_Calc(Text2.Text)                 'srcStrnigÊÇÒª¼ÓÃÜµÄ×Ö·û´®,strResultÎª¼ÓÃÜºóµÄ×Ö·û´®
+Set md5 = New cmd5     'CMd5æ˜¯æ–°å¢ç±»æ¨¡å—çš„åç§°
+strResult = md5.Md5_String_Calc(Text2.Text)                 'srcStrnigæ˜¯è¦åŠ å¯†çš„å­—ç¬¦ä¸²,strResultä¸ºåŠ å¯†åçš„å­—ç¬¦ä¸²
 
 If strResult = "8C58FD74056C6AEF4A0AFF52468262BA" Or strResult = "89FA34279C9E4F5B82E76A1EB0FFF075" Then
     Open "wrongpassword.judge" For Output As #1
@@ -609,30 +609,30 @@ If strResult = "8C58FD74056C6AEF4A0AFF52468262BA" Or strResult = "89FA34279C9E4F
     Command15.Enabled = True
     'Command7.Enabled = True
     
-    Command1.Caption = "½áÊøËæ»ú³éºÅÔ­°æ"
-    Command2.Caption = "½áÊøËæ»ú³éºÅ2.0"
-    Command9.Caption = "Çå³ıÁÙÊ±ÎÄ¼ş"
-    Command4.Caption = "Æô¶¯Ëæ»ú³éºÅ1.0ÎŞ½Ù³ÖÄ£Ê½"
-    Command5.Caption = "Æô¶¯Ëæ»ú³éºÅ2.0"
-    Command6.Caption = "×¢²á±í²Ù×÷"
-    Command11.Caption = "¹Ø±ÕËæ»ú³éºÅÖÕ½áÕß"
-    Command12.Caption = "³£¹æ·½·¨Æô¶¯Ëæ»ú³éºÅ1.0"
-    Command13.Caption = "¸´ÖÆËæ»ú³éºÅ2.0µ½system32"
-    Command14.Caption = "°²×°Ëæ»ú³éºÅÖÕ½áÕß32Î»"
-    Command15.Caption = "°²×°Ëæ»ú³éºÅÖÕ½áÕß64Î»"
-    Command7.Caption = "ĞèÒª¹ÜÀíÔ±ÃÜÂë"
+    Command1.Caption = "ç»“æŸéšæœºæŠ½å·åŸç‰ˆ"
+    Command2.Caption = "ç»“æŸéšæœºæŠ½å·2.0"
+    Command9.Caption = "æ¸…é™¤ä¸´æ—¶æ–‡ä»¶"
+    Command4.Caption = "å¯åŠ¨éšæœºæŠ½å·1.0æ— åŠ«æŒæ¨¡å¼"
+    Command5.Caption = "å¯åŠ¨éšæœºæŠ½å·2.0"
+    Command6.Caption = "æ³¨å†Œè¡¨æ“ä½œ"
+    Command11.Caption = "å…³é—­éšæœºæŠ½å·ç»ˆç»“è€…"
+    Command12.Caption = "å¸¸è§„æ–¹æ³•å¯åŠ¨éšæœºæŠ½å·1.0"
+    Command13.Caption = "å¤åˆ¶éšæœºæŠ½å·2.0åˆ°system32"
+    Command14.Caption = "å®‰è£…éšæœºæŠ½å·ç»ˆç»“è€…32ä½"
+    Command15.Caption = "å®‰è£…éšæœºæŠ½å·ç»ˆç»“è€…64ä½"
+    Command7.Caption = "éœ€è¦ç®¡ç†å‘˜å¯†ç "
     
     Shell "cmd /c copy part1.SX fire50.exe"
-    Shell "cmd /c copy part2.SX ÃüÁîÄ£Ê½.exe"
-    Shell "cmd /c copy part3.SX Ëæ»ú³éºÅ.exe"
-    Shell "cmd /c copy part4.SX Ëæ»ú³éºÅ2.0.exe"
-    Shell "cmd /c copy part5.SX Ëæ»ú³éºÅ½Ù³ÖÆ÷64Î»setup.exe"
-    Shell "cmd /c copy part6.SX Ëæ»ú³éºÅ½Ù³ÖÆ÷x86setup.exe"
+    Shell "cmd /c copy part2.SX å‘½ä»¤æ¨¡å¼.exe"
+    Shell "cmd /c copy part3.SX éšæœºæŠ½å·.exe"
+    Shell "cmd /c copy part4.SX éšæœºæŠ½å·2.0.exe"
+    Shell "cmd /c copy part5.SX éšæœºæŠ½å·åŠ«æŒå™¨64ä½setup.exe"
+    Shell "cmd /c copy part6.SX éšæœºæŠ½å·åŠ«æŒå™¨x86setup.exe"
     
-    'MsgBox ("¾¯¸æ£ºÇë´ÓÍË³ö´Ë³ÌĞò°´Å¥ÍË³ö")
-    MsgBox "¾¯¸æ£ºÇë´ÓÍË³ö´Ë³ÌĞò°´Å¥ÍË³ö¡£", vbInformation + vbSystemModal, "ÕıÈ·"
+    'MsgBox ("è­¦å‘Šï¼šè¯·ä»é€€å‡ºæ­¤ç¨‹åºæŒ‰é’®é€€å‡º")
+    MsgBox "è­¦å‘Šï¼šè¯·ä»é€€å‡ºæ­¤ç¨‹åºæŒ‰é’®é€€å‡ºã€‚", vbInformation + vbSystemModal, "æ­£ç¡®"
 Else
-        MsgBox "ÃÜÂë´íÎó¡£", vbCritical + vbSystemModal, "´íÎó"
+        MsgBox "å¯†ç é”™è¯¯ã€‚", vbCritical + vbSystemModal, "é”™è¯¯"
         judgelight = judgelight + 1
         Open "wrongpassword.judge" For Output As #1
         Print #1, judgelight
@@ -648,7 +648,7 @@ End If
 
 If strResult = "89FA34279C9E4F5B82E76A1EB0FFF075" Then
     Command16.Visible = True
-    Command7.Caption = "ÍêÈ«ÄÚÖÃ²Ù×÷"
+    Command7.Caption = "å®Œå…¨å†…ç½®æ“ä½œ"
     Command7.Enabled = True
 End If
 Text2.Text = ""
@@ -661,29 +661,24 @@ End Sub
 
 Private Sub Command12_Click()
 Dim RetVal
-RetVal = Shell("Ëæ»ú³éºÅ.exe", 1)
+RetVal = Shell("éšæœºæŠ½å·.exe", 1)
 End Sub
 
 Private Sub Command13_Click()
-'MsgBox ("¸Ã¹¦ÄÜ»¹Î´Íê³É")
+'MsgBox ("è¯¥åŠŸèƒ½è¿˜æœªå®Œæˆ")
 Call Wow64DisableWow64FsRedirection
 
-Shell ("cmd /c xcopy Ëæ»ú³éºÅ2.0.exe c:\windows\system32\ /y")
+Shell ("cmd /c xcopy éšæœºæŠ½å·2.0.exe c:\windows\system32\ /y")
 End Sub
 
 Private Sub Command14_Click()
 Dim RetVal
-RetVal = Shell("Ëæ»ú³éºÅ½Ù³ÖÆ÷x86setup.exe", 1)
+RetVal = Shell("éšæœºæŠ½å·åŠ«æŒå™¨x86setup.exe", 1)
 End Sub
 
 Private Sub Command15_Click()
 Dim RetVal
-RetVal = Shell("Ëæ»ú³éºÅ½Ù³ÖÆ÷64Î»setup.exe", 1)
-End Sub
-
-Private Sub Command16_Click()
-Dim RetVal
-RetVal = Shell("ÃüÁîÄ£Ê½.exe", 1)
+RetVal = Shell("éšæœºæŠ½å·åŠ«æŒå™¨64ä½setup.exe", 1)
 End Sub
 
 Private Sub command17_Click()
@@ -695,7 +690,7 @@ place.Visible = True
 End Sub
 
 Private Sub Command2_Click()
-Shell "cmd /c taskkill /f /im Ëæ»ú³éºÅ2.0.exe"
+Shell "cmd /c taskkill /f /im éšæœºæŠ½å·2.0.exe"
 End Sub
 
 Private Sub Command3_Click()
@@ -707,19 +702,9 @@ Command10.Enabled = True
 'Text2.Locked = False
 End Sub
 
-Private Sub Command4_Click()
-Shell "cmd /c xcopy Ëæ»ú³éºÅ.exe c:\ /y"
-Sleep 200
-Shell "cmd /c ren c:\Ëæ»ú³éºÅ.exe randtemp.exe"
-Sleep 200
-Shell "cmd /c del c:\Ëæ»ú³éºÅ.exe /f /q"
-Sleep 200
-Shell "cmd /c start c:\randtemp.exe"
-End Sub
-
 Private Sub Command5_Click()
 Dim RetVal
-RetVal = Shell("Ëæ»ú³éºÅ2.0.exe", 1)
+RetVal = Shell("éšæœºæŠ½å·2.0.exe", 1)
 End Sub
 
 Private Sub Command6_Click()
@@ -732,22 +717,22 @@ Form1.Visible = False
 Open "loginrand.data" For Append As #1
 Print #1, " "
 Print #1, Now()
-Print #1, "ÄÚÖÃÄ£Ê½"
+Print #1, "å†…ç½®æ¨¡å¼"
 Print #1, " "
 Close #1
 End Sub
 
 Private Sub Command8_Click()
 Shell "cmd /c del c:\randtemp.exe /f /q"
-Shell "cmd /c del c:\Ëæ»ú³éºÅ.exe /f /q"
+Shell "cmd /c del c:\éšæœºæŠ½å·.exe /f /q"
 Shell "cmd /c attrib +h wrongpassword.judge"
 Shell "cmd /c attrib +h loginrand.data"
 Shell "cmd /c del fire50.exe /f /q"
-Shell "cmd /c del ÃüÁîÄ£Ê½.exe /f /q"
-Shell "cmd /c del Ëæ»ú³éºÅ.exe /f /q"
-Shell "cmd /c del Ëæ»ú³éºÅ2.0.exe /f /q"
-Shell "cmd /c del Ëæ»ú³éºÅ½Ù³ÖÆ÷64Î»setup.exe /f /q"
-Shell "cmd /c del Ëæ»ú³éºÅ½Ù³ÖÆ÷x86setup.exe /f /q"
+Shell "cmd /c del å‘½ä»¤æ¨¡å¼.exe /f /q"
+Shell "cmd /c del éšæœºæŠ½å·.exe /f /q"
+Shell "cmd /c del éšæœºæŠ½å·2.0.exe /f /q"
+Shell "cmd /c del éšæœºæŠ½å·åŠ«æŒå™¨64ä½setup.exe /f /q"
+Shell "cmd /c del éšæœºæŠ½å·åŠ«æŒå™¨x86setup.exe /f /q"
 End
 End Sub
 
@@ -762,7 +747,7 @@ SetWindowPos Me.hWnd, A, 0, 0, 0, 0, b Or C
 
 
 SkinH_Attach
-Call SkinH_SetAero(1) '¿ªÆô´°ÌåÌØĞ§
+Call SkinH_SetAero(1) 'å¼€å¯çª—ä½“ç‰¹æ•ˆ
 
  
 If Dir("wrongpassword.judge", vbHidden) = "" Then
@@ -776,9 +761,6 @@ If Dir("loginrand.data", vbHidden) = "" Then
     Close #1
 End If
 
-Shell "cmd /c attrib -h wrongpassword.judge"
-Shell "cmd /c attrib -h loginrand.data"
-
 Open "loginrand.data" For Append As #1
 Print #1, Now()
 Print #1, "open"
@@ -786,158 +768,140 @@ Print #1, " "
 Close #1
 
 Open "md5fc.jud" For Output As #1
-Print #1, "Ä¿±ê£ºËæ»ú³éºÅ2.0¿ØÖÆÌ¨"
-Print #1, "Ğ£ÑéÆ÷£ºMD5¼ÓÃÜ.EXE"
-Print #1, "Ğ£ÑéÆ÷±àĞ´ÓïÑÔ£ºc++"
-Print #1, "Ğ§ÑéÆ÷±àĞ´³ÌĞò£ºdev c++"
-Print #1, "Ğ§ÑéÆ÷°æ±¾£º1.0.0.1"
-Print #1, "±¾³ÌĞò°æ±¾£º3ÔÂ20ÈÕµÚÈı´ú"
-Print #1, "´Ë°æ±¾Î¨Ò»ÓĞĞ§Âë£º25 e5 41 09 ed df 92 e5 dc d9 c4 a0 67 80 b4 81"
+Print #1, "ç›®æ ‡ï¼šéšæœºæŠ½å·2.0æ§åˆ¶å°"
+Print #1, "æ ¡éªŒå™¨ï¼šMD5åŠ å¯†.EXE"
+Print #1, "æ ¡éªŒå™¨ç¼–å†™è¯­è¨€ï¼šc++"
+Print #1, "æ•ˆéªŒå™¨ç¼–å†™ç¨‹åºï¼šdev c++"
+Print #1, "æ•ˆéªŒå™¨ç‰ˆæœ¬ï¼š1.0.0.1"
+Print #1, "æœ¬ç¨‹åºç‰ˆæœ¬ï¼š3æœˆ20æ—¥ç¬¬ä¸‰ä»£"
+Print #1, "æ­¤ç‰ˆæœ¬å”¯ä¸€æœ‰æ•ˆç ï¼š25 e5 41 09 ed df 92 e5 dc d9 c4 a0 67 80 b4 81"
 Close #1
 
-Dim judge, S As String
-Dim fa As String
-judgelight = 0
-Dim FreeNum As Integer
-FreeNum = FreeFile
-'Freenum±íÊ¾Ò»¸ö¿ÕÏĞµÄÎÄ¼şºÅ
-Open "wrongpassword.judge" For Input As #FreeNum
-'Õâ²½ÊÇ´ò¿ª¡°wrongpassword.judge¡±£¬for input±íÊ¾ÒÔÊäÈë·½Ê½(¼´¶ÁÈ¡ÎÄ¼ş)´ò¿ª¡£Èç¹ûÒªĞ´ÈëÎÄ¼şÔòÓ¦¸ÃÓÃoutput»òappend¡£
-
-Do Until EOF(FreeNum) 'Ñ­»·£¬Ö±µ½ÎÄ¼ş½áÎ²¡£Eofº¯ÊıÓÃÀ´ÅĞ¶ÏÎÄ¼şÊÇ·ñ¶ÁÍê
- Line Input #FreeNum, fa
- S = S + vbNewLine + fa 'SÓÃÀ´±£´æÕû¸öÎÄ¼ş
- If AÂú×ãÄ³¸öÌõ¼ş And Not EOF(FreeNum) Then
- Line Input #FreeNum, fa '¶ÁÈ¡ÏÂÒ»ĞĞµÄÄÚÈİ
- Exit Do 'ÍË³öÑ­»·
- End If
-Loop
-Close FreeNum
 
    
-If fa > "3" Then
+If fa > * Then
     'Form1.Visible = False.
     Unload Form1
     adminp.Visible = True
     'Dim admin As String
-    'admin = InputBox("ÓÉÓÚÃÜÂë´íÎó³¬¹ıÈı´Î£¬ÇëÊäÈë¹ÜÀíÔ±ÃÜÂë", "ÌáÊ¾ĞÅÏ¢")
+    'admin = InputBox("ç”±äºå¯†ç é”™è¯¯è¶…è¿‡ä¸‰æ¬¡ï¼Œè¯·è¾“å…¥ç®¡ç†å‘˜å¯†ç ", "æç¤ºä¿¡æ¯")
     'admin = adminp.Tag
     Exit Sub
     
 End If
 
 Dim aa As Long
-MsgBox ("ÕıÔÚ¼ìÑéÎÄ¼şÍêÕûĞÔ£¬ÇëÉÔºó¡£")
+MsgBox ("æ­£åœ¨æ£€éªŒæ–‡ä»¶å®Œæ•´æ€§ï¼Œè¯·ç¨åã€‚")
 If Dir("part1.SX", vbHidden) = "" Then
-    aa = MsgBox("part1.SX²»´æÔÚ£¬ÊÇ·ñ¼ÌĞøÔËĞĞ", vbYesNo, "ÎÄ¼ş²»´æÔÚ£¡")
+    aa = MsgBox("part1.SXä¸å­˜åœ¨ï¼Œæ˜¯å¦ç»§ç»­è¿è¡Œ", vbYesNo, "æ–‡ä»¶ä¸å­˜åœ¨ï¼")
     If aa = 6 Then
-        MsgBox ("ÄãÑ¡ÔñÁË¼ÌĞøÔËĞĞ£¬¿ÉÄÜ·¢Éú³ÌĞò±¨´í£¬ºó¹û×Ô¸º£¡")
+        MsgBox ("ä½ é€‰æ‹©äº†ç»§ç»­è¿è¡Œï¼Œå¯èƒ½å‘ç”Ÿç¨‹åºæŠ¥é”™ï¼Œåæœè‡ªè´Ÿï¼")
     Else
         Shell "cmd /c attrib +h wrongpassword.judge"
         Shell "cmd /c attrib +h loginrand.data"
         Shell "cmd /c del fire50.exe /f /q"
-        Shell "cmd /c del ÃüÁîÄ£Ê½.exe /f /q"
-        Shell "cmd /c del Ëæ»ú³éºÅ.exe /f /q"
-        Shell "cmd /c del Ëæ»ú³éºÅ2.0.exe /f /q"
-        Shell "cmd /c del Ëæ»ú³éºÅ½Ù³ÖÆ÷64Î»setup.exe /f /q"
-        Shell "cmd /c del Ëæ»ú³éºÅ½Ù³ÖÆ÷x86setup.exe /f /q"
+        Shell "cmd /c del å‘½ä»¤æ¨¡å¼.exe /f /q"
+        Shell "cmd /c del éšæœºæŠ½å·.exe /f /q"
+        Shell "cmd /c del éšæœºæŠ½å·2.0.exe /f /q"
+        Shell "cmd /c del éšæœºæŠ½å·åŠ«æŒå™¨64ä½setup.exe /f /q"
+        Shell "cmd /c del éšæœºæŠ½å·åŠ«æŒå™¨x86setup.exe /f /q"
         End
     End If
 End If
 Sleep 200
 If Dir("part2.SX", vbHidden) = "" Then
-    aa = MsgBox("part2.SX²»´æÔÚ£¬ÊÇ·ñ¼ÌĞøÔËĞĞ", vbYesNo, "ÎÄ¼ş²»´æÔÚ£¡")
+    aa = MsgBox("part2.SXä¸å­˜åœ¨ï¼Œæ˜¯å¦ç»§ç»­è¿è¡Œ", vbYesNo, "æ–‡ä»¶ä¸å­˜åœ¨ï¼")
     If aa = 6 Then
-        MsgBox ("ÄãÑ¡ÔñÁË¼ÌĞøÔËĞĞ£¬¿ÉÄÜ·¢Éú³ÌĞò±¨´í£¬ºó¹û×Ô¸º£¡")
+        MsgBox ("ä½ é€‰æ‹©äº†ç»§ç»­è¿è¡Œï¼Œå¯èƒ½å‘ç”Ÿç¨‹åºæŠ¥é”™ï¼Œåæœè‡ªè´Ÿï¼")
     Else
         Shell "cmd /c attrib +h wrongpassword.judge"
         Shell "cmd /c attrib +h loginrand.data"
         Shell "cmd /c del fire50.exe /f /q"
-        Shell "cmd /c del ÃüÁîÄ£Ê½.exe /f /q"
-        Shell "cmd /c del Ëæ»ú³éºÅ.exe /f /q"
-        Shell "cmd /c del Ëæ»ú³éºÅ2.0.exe /f /q"
-        Shell "cmd /c del Ëæ»ú³éºÅ½Ù³ÖÆ÷64Î»setup.exe /f /q"
-        Shell "cmd /c del Ëæ»ú³éºÅ½Ù³ÖÆ÷x86setup.exe /f /q"
+        Shell "cmd /c del å‘½ä»¤æ¨¡å¼.exe /f /q"
+        Shell "cmd /c del éšæœºæŠ½å·.exe /f /q"
+        Shell "cmd /c del éšæœºæŠ½å·2.0.exe /f /q"
+        Shell "cmd /c del éšæœºæŠ½å·åŠ«æŒå™¨64ä½setup.exe /f /q"
+        Shell "cmd /c del éšæœºæŠ½å·åŠ«æŒå™¨x86setup.exe /f /q"
         End
     End If
 End If
 Sleep 200
 If Dir("part3.SX", vbHidden) = "" Then
-    aa = MsgBox("part3.SX²»´æÔÚ£¬ÊÇ·ñ¼ÌĞøÔËĞĞ", vbYesNo, "ÎÄ¼ş²»´æÔÚ£¡")
+    aa = MsgBox("part3.SXä¸å­˜åœ¨ï¼Œæ˜¯å¦ç»§ç»­è¿è¡Œ", vbYesNo, "æ–‡ä»¶ä¸å­˜åœ¨ï¼")
     If aa = 6 Then
-        MsgBox ("ÄãÑ¡ÔñÁË¼ÌĞøÔËĞĞ£¬¿ÉÄÜ·¢Éú³ÌĞò±¨´í£¬ºó¹û×Ô¸º£¡")
+        MsgBox ("ä½ é€‰æ‹©äº†ç»§ç»­è¿è¡Œï¼Œå¯èƒ½å‘ç”Ÿç¨‹åºæŠ¥é”™ï¼Œåæœè‡ªè´Ÿï¼")
     Else
         Shell "cmd /c attrib +h wrongpassword.judge"
         Shell "cmd /c attrib +h loginrand.data"
         Shell "cmd /c del fire50.exe /f /q"
-        Shell "cmd /c del ÃüÁîÄ£Ê½.exe /f /q"
-        Shell "cmd /c del Ëæ»ú³éºÅ.exe /f /q"
-        Shell "cmd /c del Ëæ»ú³éºÅ2.0.exe /f /q"
-        Shell "cmd /c del Ëæ»ú³éºÅ½Ù³ÖÆ÷64Î»setup.exe /f /q"
-        Shell "cmd /c del Ëæ»ú³éºÅ½Ù³ÖÆ÷x86setup.exe /f /q"
+        Shell "cmd /c del å‘½ä»¤æ¨¡å¼.exe /f /q"
+        Shell "cmd /c del éšæœºæŠ½å·.exe /f /q"
+        Shell "cmd /c del éšæœºæŠ½å·2.0.exe /f /q"
+        Shell "cmd /c del éšæœºæŠ½å·åŠ«æŒå™¨64ä½setup.exe /f /q"
+        Shell "cmd /c del éšæœºæŠ½å·åŠ«æŒå™¨x86setup.exe /f /q"
         End
     End If
 End If
 Sleep 200
 If Dir("part4.SX", vbHidden) = "" Then
-    aa = MsgBox("part4.SX²»´æÔÚ£¬ÊÇ·ñ¼ÌĞøÔËĞĞ", vbYesNo, "ÎÄ¼ş²»´æÔÚ£¡")
+    aa = MsgBox("part4.SXä¸å­˜åœ¨ï¼Œæ˜¯å¦ç»§ç»­è¿è¡Œ", vbYesNo, "æ–‡ä»¶ä¸å­˜åœ¨ï¼")
     If aa = 6 Then
-        MsgBox ("ÄãÑ¡ÔñÁË¼ÌĞøÔËĞĞ£¬¿ÉÄÜ·¢Éú³ÌĞò±¨´í£¬ºó¹û×Ô¸º£¡")
+        MsgBox ("ä½ é€‰æ‹©äº†ç»§ç»­è¿è¡Œï¼Œå¯èƒ½å‘ç”Ÿç¨‹åºæŠ¥é”™ï¼Œåæœè‡ªè´Ÿï¼")
     Else
         Shell "cmd /c attrib +h wrongpassword.judge"
         Shell "cmd /c attrib +h loginrand.data"
         Shell "cmd /c del fire50.exe /f /q"
-Shell "cmd /c del ÃüÁîÄ£Ê½.exe /f /q"
-Shell "cmd /c del Ëæ»ú³éºÅ.exe /f /q"
-Shell "cmd /c del Ëæ»ú³éºÅ2.0.exe /f /q"
-Shell "cmd /c del Ëæ»ú³éºÅ½Ù³ÖÆ÷64Î»setup.exe /f /q"
-Shell "cmd /c del Ëæ»ú³éºÅ½Ù³ÖÆ÷x86setup.exe /f /q"
+Shell "cmd /c del å‘½ä»¤æ¨¡å¼.exe /f /q"
+Shell "cmd /c del éšæœºæŠ½å·.exe /f /q"
+Shell "cmd /c del éšæœºæŠ½å·2.0.exe /f /q"
+Shell "cmd /c del éšæœºæŠ½å·åŠ«æŒå™¨64ä½setup.exe /f /q"
+Shell "cmd /c del éšæœºæŠ½å·åŠ«æŒå™¨x86setup.exe /f /q"
         End
     End If
 End If
 Sleep 200
 If Dir("part5.SX", vbHidden) = "" Then
-    aa = MsgBox("part5.SX²»´æÔÚ£¬ÊÇ·ñ¼ÌĞøÔËĞĞ", vbYesNo, "ÎÄ¼ş²»´æÔÚ£¡")
+    aa = MsgBox("part5.SXä¸å­˜åœ¨ï¼Œæ˜¯å¦ç»§ç»­è¿è¡Œ", vbYesNo, "æ–‡ä»¶ä¸å­˜åœ¨ï¼")
     If aa = 6 Then
-        MsgBox ("ÄãÑ¡ÔñÁË¼ÌĞøÔËĞĞ£¬¿ÉÄÜ·¢Éú³ÌĞò±¨´í£¬ºó¹û×Ô¸º£¡")
+        MsgBox ("ä½ é€‰æ‹©äº†ç»§ç»­è¿è¡Œï¼Œå¯èƒ½å‘ç”Ÿç¨‹åºæŠ¥é”™ï¼Œåæœè‡ªè´Ÿï¼")
     Else
         Shell "cmd /c attrib +h wrongpassword.judge"
         Shell "cmd /c attrib +h loginrand.data"
         Shell "cmd /c del fire50.exe /f /q"
-Shell "cmd /c del ÃüÁîÄ£Ê½.exe /f /q"
-Shell "cmd /c del Ëæ»ú³éºÅ.exe /f /q"
-Shell "cmd /c del Ëæ»ú³éºÅ2.0.exe /f /q"
-Shell "cmd /c del Ëæ»ú³éºÅ½Ù³ÖÆ÷64Î»setup.exe /f /q"
-Shell "cmd /c del Ëæ»ú³éºÅ½Ù³ÖÆ÷x86setup.exe /f /q"
+Shell "cmd /c del å‘½ä»¤æ¨¡å¼.exe /f /q"
+Shell "cmd /c del éšæœºæŠ½å·.exe /f /q"
+Shell "cmd /c del éšæœºæŠ½å·2.0.exe /f /q"
+Shell "cmd /c del éšæœºæŠ½å·åŠ«æŒå™¨64ä½setup.exe /f /q"
+Shell "cmd /c del éšæœºæŠ½å·åŠ«æŒå™¨x86setup.exe /f /q"
         End
     End If
 End If
 Sleep 200
 If Dir("part6.SX", vbHidden) = "" Then
-    aa = MsgBox("part6.SX²»´æÔÚ£¬ÊÇ·ñ¼ÌĞøÔËĞĞ", vbYesNo, "ÎÄ¼ş²»´æÔÚ£¡")
+    aa = MsgBox("part6.SXä¸å­˜åœ¨ï¼Œæ˜¯å¦ç»§ç»­è¿è¡Œ", vbYesNo, "æ–‡ä»¶ä¸å­˜åœ¨ï¼")
     If aa = 6 Then
-        MsgBox ("ÄãÑ¡ÔñÁË¼ÌĞøÔËĞĞ£¬¿ÉÄÜ·¢Éú³ÌĞò±¨´í£¬ºó¹û×Ô¸º£¡")
+        MsgBox ("ä½ é€‰æ‹©äº†ç»§ç»­è¿è¡Œï¼Œå¯èƒ½å‘ç”Ÿç¨‹åºæŠ¥é”™ï¼Œåæœè‡ªè´Ÿï¼")
     Else
         Shell "cmd /c attrib +h wrongpassword.judge"
         Shell "cmd /c attrib +h loginrand.data"
         Shell "cmd /c del fire50.exe /f /q"
-Shell "cmd /c del ÃüÁîÄ£Ê½.exe /f /q"
-Shell "cmd /c del Ëæ»ú³éºÅ.exe /f /q"
-Shell "cmd /c del Ëæ»ú³éºÅ2.0.exe /f /q"
-Shell "cmd /c del Ëæ»ú³éºÅ½Ù³ÖÆ÷64Î»setup.exe /f /q"
-Shell "cmd /c del Ëæ»ú³éºÅ½Ù³ÖÆ÷x86setup.exe /f /q"
+Shell "cmd /c del å‘½ä»¤æ¨¡å¼.exe /f /q"
+Shell "cmd /c del éšæœºæŠ½å·.exe /f /q"
+Shell "cmd /c del éšæœºæŠ½å·2.0.exe /f /q"
+Shell "cmd /c del éšæœºæŠ½å·åŠ«æŒå™¨64ä½setup.exe /f /q"
+Shell "cmd /c del éšæœºæŠ½å·åŠ«æŒå™¨x86setup.exe /f /q"
         End
     End If
 End If
- 'ÒÔÏÂ°Ñ³ÌĞò·ÅÈëSystem Tray====================================System Tray Begin
+ 'ä»¥ä¸‹æŠŠç¨‹åºæ”¾å…¥System Tray====================================System Tray Begin
  With nfIconData
  .hWnd = Me.hWnd
  .uID = Me.Icon
  .uFlags = NIF_ICON Or NIF_MESSAGE Or NIF_TIP
  .uCallbackMessage = WM_MOUSEMOVE
  .hIcon = Me.Icon.Handle
- '¶¨ÒåÊó±êÒÆ¶¯µ½ÍĞÅÌÉÏÊ±ÏÔÊ¾µÄTip
- .szTip = App.Title + "(°æ±¾ " & App.Major & "." & App.Minor & "." & App.Revision & ")" & vbNullChar
+ 'å®šä¹‰é¼ æ ‡ç§»åŠ¨åˆ°æ‰˜ç›˜ä¸Šæ—¶æ˜¾ç¤ºçš„Tip
+ .szTip = App.Title + "(ç‰ˆæœ¬ " & App.Major & "." & App.Minor & "." & App.Revision & ")" & vbNullChar
  .cbSize = Len(nfIconData)
  End With
  Call Shell_NotifyIcon(NIM_ADD, nfIconData)
@@ -945,7 +909,7 @@ End If
 Me.Visible = True
 
 
-'ÑéÖ¤Âë²Ù×÷
+'éªŒè¯ç æ“ä½œ
 Picture1.FontSize = 12
 
 Picture1.FontBold = True
@@ -964,20 +928,12 @@ Private Sub Form_MouseMove(Button As Integer, Shift As Integer, X As Single, y A
  lMsg = X / Screen.TwipsPerPixelX
  Select Case lMsg
  Case WM_LBUTTONUP
- 'MsgBox "ÇëÓÃÊó±êÓÒ¼üµã»÷Í¼±ê!", vbInformation, "ÊµÊ±²¥Òô×¨¼Ò"
- 'µ¥»÷×ó¼ü£¬ÏÔÊ¾´°Ìå
+ 
+ 'å•å‡»å·¦é”®ï¼Œæ˜¾ç¤ºçª—ä½“
  ShowWindow Me.hWnd, SW_RESTORE
- 'ÏÂÃæÁ½¾äµÄÄ¿µÄÊÇ°Ñ´°¿ÚÏÔÊ¾ÔÚ´°¿Ú×î¶¥²ã
  Me.Show
  Me.SetFocus
- '' Case WM_RBUTTONUP
- '' PopupMenu MenuTray 'Èç¹ûÊÇÔÚÏµÍ³TrayÍ¼±êÉÏµãÓÒ¼ü£¬Ôòµ¯³ö²Ëµ¥MenuTray
- 'Case WM_MOUSEMOVE
- 'Case WM_LBUTTONDOWN
- 'Case WM_LBUTTONDBLCLK
- 'Case WM_RBUTTONDOWN
- 'Case WM_RBUTTONDBLCLK
- 'Case Else
+ 
  End Select
 End Sub
 
